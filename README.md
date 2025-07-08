@@ -1,1 +1,1 @@
-# birthday-wish-priyantha
+# birthday-wish-amma

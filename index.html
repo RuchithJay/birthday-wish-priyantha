@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎂</text></svg>">
+  
+  <!-- Open Graph meta tags for WhatsApp and social media link previews -->
+  <meta property="og:title" content="Happy Birthday Priyantha! 🎂">
+  <meta property="og:description" content="A special birthday surprise! Filled with love, joy, and celebration!">
+  <meta property="og:image" content="./assets/cake.png">
+  <meta property="og:image:alt" content="Birthday celebration image">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  
+  <!-- Twitter Card meta tags (optional, for better Twitter sharing) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Happy Birthday Priyantha! 🎂">
+  <meta name="twitter:description" content="A special birthday surprise filled with love, joy, and celebration!">
+  <meta name="twitter:image" content="./assets/cake.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-content">
+      <div class="birthday-icon">🎂</div>
+      <h2 class="loading-title">Preparing something special...</h2>
+      <div class="loading-bar">
+        <div class="loading-progress"></div>
+      </div>
+      <p class="loading-text">Loading birthday surprise</p>
+    </div>
+  </div>
+
+  <div class="slideshow">
+    <div class="slide one"></div>
+    <div class="slide two"></div>
+    <div class="slide three"></div>
+    <div class="slide four"></div>
+    <div class="slide five"></div>
+    
+    <!-- Slide indicators -->
+    <div class="slide-indicators">
+      <div class="indicator active" data-slide="1"></div>
+      <div class="indicator" data-slide="2"></div>
+      <div class="indicator" data-slide="3"></div>
+      <div class="indicator" data-slide="4"></div>
+      <div class="indicator" data-slide="5"></div>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1 class="wish">Happy Birthday Priyantha 🎂</h1>
+    <div class="cake-container">
+      <img class="cake" src="assets/cake2.png" alt="Birthday Cake">
+      <p class="cake-instruction">🎂 Tap the cake 🎂</p>
+    </div>
+  </div>
+
+  <div class="popup-card" id="popupCard">
+  <div class="card-content">
+    <h2>💌 A Birthday Message</h2>
+    <p>
+      Dear Loku Taththa,<br><br>
+       Thank you for always treating me like your own and for tolerating my occasional shenanigans!<br>
+       I’m truly grateful for your constant guidance and kindness.<br>
+       Wishing you happiness, good health, and endless laughter.<br>
+       <br>
+    <b>Happy Birthday! 🎉</b>
+  </br>
+</br>
+      — Tharin </br>
+    </p>
+    <button id="closeCard">Close</button>
+  </div>
+</div>
+
+
+  <div class="balloons">
+     <div class="balloon red"></div>
+     <div class="balloon blue"></div>
+     <div class="balloon yellow"></div>
+     <div class="balloon green"></div>
+     <div class="balloon purple"></div>
+  </div>
+
+
+  
+
+  <audio id="birthdayMusic" loop autoplay>
+    <source src="assets/happy-birthday-357371.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <button id="musicBtn">🔊</button>
+
+  <footer class="footer">
+    <p></p>
+    <p class="footer-small">© 2025 • Made with love 🤍</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
